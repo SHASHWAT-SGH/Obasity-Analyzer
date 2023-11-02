@@ -1,0 +1,81 @@
+.cardWrapper{
+    width: 80%;
+    height: 80%;
+    /* border-radius: 7px; */
+    background-color: var(--cardBackground);
+    
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    padding: 1.8rem 2rem;
+}
+
+
+.card{
+    margin-top: 2rem;
+    opacity: 1;
+    width: 100%;
+    height: 100%;  
+    display: flex;  
+}
+
+.card aside.left{
+    width: 35%;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+}
+
+.card aside.left .heading-wrapper{
+    margin-bottom: 2rem;
+}
+
+.card aside.left h2{
+    color: var(--color1);
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.card aside.left .p-wrapper{
+    margin-bottom: 2rem;
+}
+
+.card aside.left p{
+    padding-top: 0.8rem;
+    color: var(--color3);
+}
+.card aside.left .btn-wrapper{
+    display: flex;
+    gap: 2rem;
+}
+
+.card aside.left .btn{
+    padding: 0.5rem 1.7rem;
+    border-radius: 3rem;
+    font-weight: 500;
+
+}
+.card aside.left .btn:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all ease 0.5s;
+}
+
+.card aside.left .btn1{
+    color: var(--color4);
+    border: 1px solid var(--color4);
+}
+
+.card aside.left .btn2{
+    color: var(--color5);
+    background-color: rgb(170, 30, 116);
+}
+
+.card aside.right{
+    width: 65%;
+}
+
+.card aside.right .image{
+    float: right;
+    mix-blend-mode: multiply;
+    height: 80%;
+    margin-right: 2rem;
+}
